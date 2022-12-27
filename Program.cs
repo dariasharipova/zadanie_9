@@ -9,9 +9,9 @@ if (c <= 0)
 }
 else
 {
-    for(double k = 1; k<c; k ++)
+    for(double k = 1; k<c+1; k ++)
     {
-        rezultat = ((k + 1)/(k + 2)) * Math.Pow(x, k);
+        rezultat = rezultat + ((k + 1)/(k + 2)) * Math.Pow(x,k);
     }
 }
 Console.WriteLine(Math.Round(rezultat, 2));
